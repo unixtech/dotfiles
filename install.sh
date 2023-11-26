@@ -25,9 +25,7 @@ rm ~/.zshrc
 ln -sf "$DOTFILESDIRECTORY/git/.gitignore_global" ~/.gitignore_global
 ln -sf "$DOTFILESDIRECTORY/git/.gitconfig" ~/.gitconfig
 ln -sfn "$DOTFILESDIRECTORY/nvim/user" ~/.config/nvim/lua/user
-# ln -s "$DOTFILESDIRECTORY/nvim" ~/.config/nvim
-# ln -s "$DOTFILESDIRECTORY/nvim/init.vim" ~/.config/nvim/init.vim
-# ln -s "$DOTFILESDIRECTORY/.ackrc" ~/.ackrc
+ln -s "$DOTFILESDIRECTORY/.ackrc" ~/.ackrc
 # ln -s "$DOTFILESDIRECTORY/.ideavimrc" ~/.ideavimrc
 # ln -s "$DOTFILESDIRECTORY/tmux/.tmux.conf" ~/.tmux.conf
 

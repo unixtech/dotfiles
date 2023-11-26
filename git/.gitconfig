@@ -1,13 +1,14 @@
 [user]
 	email = indiunix@gmail.com
 	name = INDIUNIX
-	; signingkey = 41158467DC7A741F
+	name =  INDIUNIX
+
 [push]
 	default = current
 [core]
 	editor = nvim
 	excludesfile = ~/.gitignore_global
-	pager = diff-so-fancy | less --tabs=4 -RFX
+	pager = diff-so-fancy | less --tabs=4 -RF
 	quotepath = false
 [alias]
 	prune = "fetch --prune"
