@@ -1,7 +1,7 @@
 [user]
-	email = yo@lanre.wtf
-	name = Lanre Adelowo
-	signingkey = 41158467DC7A741F
+	email = indiunix@gmail.com
+	name = INDIUNIX
+	; signingkey = 41158467DC7A741F
 [push]
 	default = current
 [core]
