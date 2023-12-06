@@ -10,8 +10,9 @@ return {
     config.sources = {
       -- Set a formatter
       -- null_ls.builtins.formatting.stylua,
-      -- null_ls.builtins.formatting.prettier,
-
+      null_ls.builtins.formatting.prettier.with {
+        extra_args = { "--single-attribute-per-line" },
+      },
       null_ls.builtins.diagnostics.alex.with {
         -- pass arguments to modify/override the null-ls builtin configuration
         filetypes = { "markdown" },

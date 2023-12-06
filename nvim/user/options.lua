@@ -14,6 +14,8 @@ return {
     autochdir = true,
     numberwidth = 2,
     wrap = true,
+    -- backupdir = "/tmp//",
+    -- undodir = "/tmp//",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader

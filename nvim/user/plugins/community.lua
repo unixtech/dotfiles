@@ -135,7 +135,24 @@ return {
   { import = "astrocommunity.pack.python" },
 
   -- { import = "astrocommunity.colorscheme.dracula-nvim" },
-
+  { import = "astrocommunity.colorscheme.catppuccin", enable = true, lazy = false },
+  { -- further customize the options set by the community
+    "catppuccin",
+    opts = {
+      integrations = {
+        sandwich = false,
+        noice = true,
+        mini = true,
+        leap = true,
+        markdown = true,
+        neotest = true,
+        cmp = true,
+        overseer = true,
+        lsp_trouble = true,
+        rainbow_delimiters = true,
+      },
+    },
+  },
   -- { "max397574/better-escape.nvim", enabled = false },
   -- ----------------------------------------------
 }
